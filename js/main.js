@@ -14,8 +14,10 @@ fetch(requestURL)
             item.textContent = notes[i].dswwt;
             list.appendChild(item);
 
-
-
+            
+            document.querySelector('section.listone').appendChild(list);
+            
+l
 
         }
     })
