@@ -1,12 +1,15 @@
 {
     "mynotes": [
-        {"nameofbook": "Doing Stuff With Things",
+        {"bookname": "Doing Stuff With Things",
             "note1": "This is about learning stuff and doing stuff"
         },
         {
-            "nameofbook": "JavaScript: Novice to Ninja",
+            "bookname": "JavaScript: Novice to Ninja",
             "note1": "Node allows server side applications to written in JavaScript.",
             "note2": ""
+        },
+        {"bookname": "Eloquent JavaScript",
+            "note1": "Functions"
         }
        
     ]
