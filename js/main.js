@@ -11,9 +11,12 @@ fetch(requestURL)
 
         for (let i = 0; i < notes.length; i++) {
             let list = document.createElement('ol');
-            let item = document.createElement('li');
-            item.textContent = notes[i].bookname;
-            list.appendChild(item);
+            let nameofbook = document.createElement('h2');
+            let note1 = document.createElement('li');
+            nameofbook.textContent = notes[i].bookname;
+            note1.textContent = notes[i].note1;
+            list.appendChild(nameofbook);
+            list.appendChild(note1);
 
             
             document.querySelector('section#listone').appendChild(list);
