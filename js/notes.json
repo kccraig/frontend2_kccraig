@@ -1,7 +1,13 @@
 {
     "mynotes": [
-        {"dswwt": "events and inputs."},
-        {"dswwt": "don't panic"}
-  
+        {"nameofbook": "Doing Stuff With Things",
+            "note1": "This is about learning stuff and doing stuff"
+        },
+        {
+            "nameofbook": "JavaScript: Novice to Ninja",
+            "note1": "Node allows server side applications to written in JavaScript.",
+            "note2": ""
+        }
+       
     ]
 }
