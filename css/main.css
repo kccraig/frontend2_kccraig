@@ -5,9 +5,19 @@ body {
     color: #063A4D;
     font-family: 'Changa', sans-serif;
 }
+main {
+    margin-left: 20px;
+}
 li {
     text-decoration: none;
 }
+h1 {
+    text-align: center;
+}
 h2 {
     font-family: 'Fugaz One', cursive;
+    
+}
+ol {
+    border: 2px solid #331E5C;
 }
