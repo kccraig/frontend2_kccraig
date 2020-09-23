@@ -4,6 +4,9 @@ body {
     background-color: #E4FAC2;
     color: #063A4D;
     font-family: 'Changa', sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 main {
     margin-left: 20px;
