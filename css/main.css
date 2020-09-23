@@ -13,6 +13,7 @@ main {
 }
 li {
     text-decoration: none;
+    padding-bottom: 20px;
 }
 h1 {
     text-align: center;
