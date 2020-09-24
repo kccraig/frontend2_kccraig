@@ -1,0 +1,12 @@
+button {
+/* width: 100px; */
+background-color: blue;
+color: white;
+padding: 20px;
+font-size: 2em;
+}
+#input1 {
+    width: 400px;
+    height: 50px;
+    background-color: pink;
+}
