@@ -5,12 +5,18 @@
         },
         {
             "bookname": "JavaScript: Novice to Ninja",
-            "note1": "Node allows server side applications to written in JavaScript.",
-            "note2": ""
+            "note1": ["Node allows server side applications to written in JavaScript.", "and some more", "add brackets",
+            "Arrays: ", "You can add notes with comments and access them by array number", "so it's arrayname[0]",
+            "data types", "string", "symbol", "number", "undefined", "null", "arrays", "objects",
+             "Global Scope means variable is accessible outside of block and throughout entire program"]
+
+            
         },
         {"bookname": "Eloquent JavaScript",
             "note1": "Functions"
+            
         }
+
        
     ]
 }
