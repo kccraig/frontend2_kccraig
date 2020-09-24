@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="week2.css">   
+    <link rel="stylesheet" href="week2.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="prettystuff">
         <div class="inline">
-        <p>Type something lovely here</p>
-        <input type="text" id="input1">
+            <p>Type something lovely here</p>
+            <input type="text" id="input1">
+        </div>
+        <div class="inline">
+            <button type="button" onclick="inputclick()">I'm a button</button>
+            <p>You said:</p>
+            <div id="empty"></div>
+        </div>
     </div>
-    <div class="inline">
-        <button type="button" onclick="inputclick()">I'm a button</button>
-        <p>You said:</p><div id="empty"></div>
+    <div class="step2">
+        <div>
+            <h3>Please input a number</h3>
+            <input type="number" name="numbox1" id="numbox1">
+            <button type="button" onclick="numsum()"></button>
+            <div id="sumbox"></div>
+        </div>
     </div>
-    </div>
+
 </body>
 <script src="week2.js"></script>
+
 </html>
