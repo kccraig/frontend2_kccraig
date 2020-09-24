@@ -13,10 +13,13 @@ fetch(requestURL)
             let list = document.createElement('ol');
             let nameofbook = document.createElement('h2');
             let note1 = document.createElement('li');
+            let note2 = document.createElement('li');
             nameofbook.textContent = notes[i].bookname;
-            note1.textContent = notes[i].note1;
+            note1.textContent = notes[i];
+            note2.textContent = notes[i].note1[2];
             list.appendChild(nameofbook);
             list.appendChild(note1);
+            list.appendChild(note2);
 
             
             document.querySelector('section#listone').appendChild(list);
