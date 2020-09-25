@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div class="prettystuff">
+    <div class="step1">
         <div class="inline">
-            <p>Type something lovely here</p>
+            <h2>Type something lovely here</h2>
             <input type="text" id="input1">
         </div>
         <div class="inline">
@@ -23,15 +23,23 @@
     <div class="step2">
         <div>
             <h3>Please input a number</h3>
-            <input type="number" name="numbox1" id="numbox1">
-            <button type="button" onclick="numsum()"></button>
+            <input type="text" name="numbox1" id="numbox1">
+            <button type="button" onclick="numsum()">click me</button>
             <div id="sumbox"></div>
         </div>
     </div>
-    <div class="machine">
+    <div class="addingmachine">
         <div class="machinebox">
-            
+            <h2>Please input a new number</h2>
+            <input type="text" name="num1" id="num1">
+            <h2>Nother number please</h2>
+            <input type="text" name="num2" id="num2">
+            <br>
+            <button type="button" onclick="machine()" id="addbutton">add 'em up</button>
+            <h2>The sum of your two numbers is: </h2>
+            <div id="addbox"></div>
         </div>
+
     </div>
 
 </body>
