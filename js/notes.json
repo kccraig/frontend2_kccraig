@@ -13,7 +13,8 @@
             
         },
         {"bookname": "Eloquent JavaScript",
-            "note1": "Functions"
+            "note1": "Functions",
+            "note2": "FizzBuzz"
             
         }
 
