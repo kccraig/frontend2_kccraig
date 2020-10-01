@@ -29,7 +29,19 @@ const odds = nums.filter(function (item) {
 console.log(nums !== odds, odds);
 
 
-//result//
-const sum = [1, 2, 3].reduce(function (result, item) {
-    return result + item;
-}, );
+// [20, 21, 22, 23, 24, 25, 25, 27, 28]
+const huns = [20, 21, 22, 23, 24, 25, 25, 27, 28].every(function (item) {
+    return item < 100;
+});
+console.log(huns);
+
+const allthrees = [20, 21, 22, 23, 24, 25, 25, 27, 28].every(function (item) {
+    return item % 3 === 0;
+});
+console.log(allthrees);
+
+const mylists = [20, 21, 22, 23, 24, 25, 25, 27, 28];
+const threesies = mylists.filter(function (item) {
+    return item % 3 ===0;
+});
+console.log(threesies);
