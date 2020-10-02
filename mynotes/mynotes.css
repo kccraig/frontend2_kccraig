@@ -1,0 +1,15 @@
+/* 
+dark grey #798191
+peachy pink #DEBEB8
+light grey #CED3DD
+light green #D2DEB8
+dark green #659600 */
+
+
+body {
+    background-color: #CED3DD;
+    color: #798191;
+}
+.week {
+    background-color: #DEBEB8;
+}
