@@ -35,5 +35,7 @@ main {
 }
 footer {
     background-color:#798191;
-    color: #D2DEB8;
+    color: #D2DEB8;text-align: center;
+    padding: 20px;
+    
 }
