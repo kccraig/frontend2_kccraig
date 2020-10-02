@@ -10,10 +10,30 @@ dark green #659600 */
 body {
     background-color: #CED3DD;
     color: #3F444D;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 10px auto 10px auto;
+
+}
+header {
+    background-color: #798191;
+    color: #D2DEB8;
+    padding: 20px;
+    text-align: center;
+}
+main {
     
 }
 .week {
     background-color: #DEBEB8;
-    width: 80%;
-    margin: 10px auto 10px auto;
+    border: 2px solid #659600;
+    padding: 10px;
+   
+}
+.defs {
+    border: 2px solid #659600;
+}
+footer {
+    background-color:#798191;
+    color: #D2DEB8;
 }

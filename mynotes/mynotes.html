@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mynotes.css">
     <title>Document</title>
 </head>
+
 <body>
     <main>
-        <div>
-        <h1>My Notes for WDD 330</h1>
-    </div>
-    <div class="defs">
-        <ol>
-            <li>objects="You define (and create) a JavaScript object with an object literal</li>
-            <p>a car is an object, has properties, you can define it</p>
-            <li>methods=Methods are actions that can be performed on objects.</li>
-            <p>A method is a vunction stored as a property</p>
-            <p>Functions are performed on an object.</object></p>
-            <li>---This---</li>
-            <p>this refers to whatever owns the property </p>
-            <p>let car = object, car is the "this"</p>
-            const car = {
-            typeof: "ford",
-            yearmade: "1967"
-            hewants: function() {
-                return: this.typeof + " " + this.yearmade;
-            }
-        }
-        </ol>
-    </div>
-    <div>
-        <h2 class="week"> Week 1</h2>
-       </div>
-       <div>
-        <h2 class="week"> Week 2</h2>
-       </div>
-       <div>
-        <h2 class="week"> Week 3</h2>
-        <p>
-            This is a keyword whose value changes depending on how a function gets called.
+        <header>
+            <div>
+                <h1>My Notes for WDD 330</h1>
+            </div>
+        </header>
+        <div class="defs">
+            <h2>Definitions</h2>
             <ol>
-                <li>this in global context</li>
-                <li>this in object construction</li>
-                <li>in an object method</li>
-                <li>in a simple function</li>
-                <li>in an arrow function</li>
-                <li>in an event listener</li>
+                <li>objects="You define (and create) a JavaScript object with an object literal</li>
+                <p>a car is an object, has properties, you can define it</p>
+                <li>methods=Methods are actions that can be performed on objects.</li>
+                <p>A method is a vunction stored as a property</p>
+                <p>Functions are performed on an object.</object></p>
+                <li>---This---</li>
+                <p>this refers to whatever owns the property </p>
+                <p>let car = object, car is the "this"</p>
+                const car = {
+                typeof: "ford",
+                yearmade: "1967"
+                hewants: function() {
+                return: this.typeof + " " + this.yearmade;
+                }
+                }
             </ol>
-        </p>
-        <p>
+        </div>
+        <div class="weeksection">
+            <h2 class="week"> Week 1</h2>
+        </div>
+        <div>
+            <h2 class="week"> Week 2</h2>
+        </div>
+        <div>
+            <h2 class="week"> Week 3</h2>
+            <p>
+                This is a keyword whose value changes depending on how a function gets called.
+                <ol>
+                    <li>this in global context</li>
+                    <li>this in object construction</li>
+                    <li>in an object method</li>
+                    <li>in a simple function</li>
+                    <li>in an arrow function</li>
+                    <li>in an event listener</li>
+                </ol>
+            </p>
+            <p>
 
-        </p>
-       </div>
-      
+            </p>
+        </div>
+
     </main>
+    <footer>
+        <div id="timeplace"></div>
+    </footer>
 </body>
+<script src="mynotes.js"></script>
+
 </html>
