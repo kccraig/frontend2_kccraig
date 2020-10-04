@@ -15,3 +15,4 @@ const car = {
     }
 };
 console.table(car);
+

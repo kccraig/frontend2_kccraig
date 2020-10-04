@@ -45,3 +45,4 @@ const threesies = mylists.filter(function (item) {
     return item % 3 ===0;
 });
 console.log(threesies);
+

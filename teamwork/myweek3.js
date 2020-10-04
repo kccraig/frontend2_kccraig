@@ -139,18 +139,18 @@
 console.log(fifteen);
 
 
-const newname = inventors.filter(function (item) {
-  for ( let i = 0; i<inventors.length; i++) {
-      // console.log(inventors.first);
-      console.log(inventors.first);
-  }
-});
-console.log(newname);
+// const newname = inventors.filter(function (item) {
+//   for ( let i = 0; i<inventors.length; i++) {
+//       // console.log(inventors.first);
+//       console.log(inventors.first);
+//   }
+// });
+// console.log(newname);
 
-const firstname = inventors.map(function (item) {
-    return item.first;
-})
-console.log(firstname);
+// const firstname = inventors.map(function (item) {
+//     return item.first;
+// })
+// console.log(firstname);
 
 
 
@@ -160,13 +160,6 @@ const fullname = inventors.map(function (item) {
     return item.first + item.last;
 });
 console.log(fullname);
-
-
-
-
-
-
-
 
 
 
@@ -188,12 +181,21 @@ console.table(date);
 const sum = [1, 2, 3].reduce(function (result, item) {
     return result + item;
 }, 0);
+console.log();
+
+const allyears = inventors.reduce(function (death, born) {
+    const long = death.passed - death.year 
+    if (death.passed - born.year) {
+        return result 
+    }
+});
+console.table(allyears);
 
 
 
   // 5. Sort the inventors by years lived
 const lived = inventors.sort(function (death, born) {
-    console.log(death);
+    // console.log(death);
     const h1 = death.passed - death.year
     if (death.passed - born.year) {
         return 1
@@ -214,19 +216,19 @@ console.table(lived);
 
   // 8. Reduce Exercise
   // Sum up the instances of each of these
-  const data = [
-      'car',
-      'car',
-      'truck',
-      'truck',
-      'bike',
-      'walk',
-      'car',
-      'van',
-      'bike',
-      'walk',
-      'car',
-      'van',
-      'car',
-      'truck'
-  ];
+//   const data = [
+//       'car',
+//       'car',
+//       'truck',
+//       'truck',
+//       'bike',
+//       'walk',
+//       'car',
+//       'van',
+//       'bike',
+//       'walk',
+//       'car',
+//       'van',
+//       'car',
+//       'truck'
+//   ];
