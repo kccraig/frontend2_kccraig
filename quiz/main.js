@@ -10,3 +10,12 @@ const fruit = `apples`;
 const fruittalk = `I like ${fruit}!`;
 document.getElementById('fruit').innerHTML = fruittalk;
 
+
+/*form time*/
+
+//  function searchbutton() {
+//      alert("cant find it");
+
+//  }
+ const input = form.elements.searchInput;
+ input.addEventListener('focus', () => alert('focused'), false);
