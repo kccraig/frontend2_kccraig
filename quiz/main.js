@@ -1,1 +1,12 @@
-alert('Welcome to Quiz Ninja!');
+// alert('Welcome to Quiz Ninja!');
+const name = "birthday";
+document.getElementById('namespot').innerHTML = " " + name.length;
+document.getElementById('namespot2').innerHTML = " " + name.toUpperCase();
+document.getElementById('namespot3').innerHTML = " " + name.indexOf('A');
+
+document.getElementById('hellospan').innerHTML = " `hello` ";
+
+const fruit = `apples`;
+const fruittalk = `I like ${fruit}!`;
+document.getElementById('fruit').innerHTML = fruittalk;
+

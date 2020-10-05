@@ -1,0 +1,27 @@
+body {
+    font-size: 1.5em;
+}
+#chap2 {
+    background-color: #FCCF9A;
+}
+#chap3 {
+    background-color: #E4D6F2;
+}
+#chap4 {
+    background-color: #68F7F1;
+}
+#chap5 {
+    background-color: #FC7C6A;
+}
+#chap6 {
+    background-color: #F2E968;
+}
+#chap7 {
+    background-color: #C5ED91;
+}
+#chap8 {
+    background-color: #97CDF7;
+}
+#fruit {
+    font-weight: bold;
+}
