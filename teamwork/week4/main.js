@@ -10,3 +10,5 @@ addEventListener('click', (event) => {
 });
 
 addEventListener('touchend', () => console.log('Touch stopped'));
+
+document.nodeName;
