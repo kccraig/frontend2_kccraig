@@ -18,3 +18,22 @@ td {
     height: 200px;
 }
 
+#divGameBoard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: turquoise;
+    height: 600px;
+    width: 600px;
+    margin: 50px auto;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.div1 {
+    border: 2px solid blue;
+    font-size: 2rem;
+}
+button {
+    width: 200px;
+    height: 50px;
+    background-color:blue;
+    color: turquoise;
+}
