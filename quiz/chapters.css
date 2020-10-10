@@ -1,5 +1,16 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Secular One', sans-serif; */
+
 body {
     font-size: 1.5em;
+    font-family: 'Secular One', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Inter', sans-serif;
+}
+main {
+    padding: 20px;
+    background-color: #cccccc;
 }
 #chap2 {
     background-color: #FCCF9A;
@@ -24,4 +35,18 @@ body {
 }
 #fruit {
     font-weight: bold;
+}
+footer {
+    background-color: skyblue;
+    color: white;
+}
+.bottom {
+    text-align: center;
+    padding: 20px;
+}
+.defs {
+    background-color: tan;
+}
+.teamwork {
+    background-color: thistle;
 }
