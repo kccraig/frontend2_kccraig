@@ -46,7 +46,11 @@ footer {
 }
 .defs {
     background-color: tan;
+    padding: 20px;
 }
 .teamwork {
     background-color: thistle;
+}
+section {
+    padding: 20px;
 }
