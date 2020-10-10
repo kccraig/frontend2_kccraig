@@ -83,3 +83,4 @@ function reset() {
         gameOver = false;
     })
 }
+console.log('working');
