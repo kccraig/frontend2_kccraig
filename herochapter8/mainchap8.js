@@ -20,6 +20,7 @@ function makeHero(event) {
     hero.realName = form.realName.value;
 
    
+   console.log(hero.origin);
     alert(JSON.stringify(hero));
     return hero;
 }
