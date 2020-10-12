@@ -1,27 +1,56 @@
-/* font-family: 'Changa', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;600;700&family=Fugaz+One&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Secular One', sans-serif; */
+
 body {
-    background-color: #E4FAC2;
-    color: #063A4D;
-    font-family: 'Changa', sans-serif;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.5em;
+    font-family: 'Secular One', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Inter', sans-serif;
 }
 main {
-    margin-left: 20px;
+    padding: 20px;
+    background-color: #cccccc;
 }
-li {
-    text-decoration: none;
-    padding-bottom: 20px;
+#chap2 {
+    background-color: #FCCF9A;
 }
-h1 {
+#chap3 {
+    background-color: #E4D6F2;
+}
+#chap4 {
+    background-color: #68F7F1;
+}
+#chap5 {
+    background-color: #FC7C6A;
+}
+#chap6 {
+    background-color: #F2E968;
+}
+#chap7 {
+    background-color: #C5ED91;
+}
+#chap8 {
+    background-color: #97CDF7;
+}
+#fruit {
+    font-weight: bold;
+}
+footer {
+    background-color: skyblue;
+    color: white;
+}
+.bottom {
     text-align: center;
+    padding: 20px;
 }
-h2 {
-    font-family: 'Fugaz One', cursive;
-    
+.defs {
+    background-color: tan;
+    padding: 20px;
 }
-ol {
-    border: 2px solid #331E5C;
+.teamwork {
+    background-color: thistle;
+}
+section {
+    padding: 20px;
 }

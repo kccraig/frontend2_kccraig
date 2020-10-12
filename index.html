@@ -4,37 +4,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Secular+One&display=swap');
+    </style>
+    <title>WDD 330 Notes</title>
     <link rel="stylesheet" href="css/main.css">
-    <title>Master Frontend Index</title>
 </head>
 
 <body>
-    <header>
-        <h1>Notesy Notes Notes</h1>
-        <ul>
-            <li>Eloquent JavaScript</li>
-            <ul>
-                <li><a href="fizzbuzz/fizzbuzz.html">FizzBuzz</a></li>
-            </ul>
 
-        </ul>
+    <header>
+        <h1>WDD 330 Notes</h1>
+        <h2>In all sorts of order</h2>
     </header>
     <main>
         <section>
-            <h2>Team Activities</h2>
-            <li><a href="teamwork/week2.html">Teamwork week 2</a></li>
-            <li><a href="teamwork/week3.html">Teamwork week 3</a></li>
+        <div class="defs">
+            <h2>Definitions</h2>
+            <ol>
+                <li>objects="You define (and create) a JavaScript object with an object literal</li>
+                <p>a car is an object, has properties, you can define it</p>
+                <li>methods=Methods are actions that can be performed on objects.</li>
+                <p>A method is a vunction stored as a property</p>
+                <p>Functions are performed on an object.</p>
+                <li>---This---</li>
+                <p>this refers to whatever owns the property </p>
+                <p>let car = object, car is the "this"</p>
+                const car = {
+                typeof: "ford",
+                yearmade: "1967"
+                hewants: function() {
+                return: this.typeof + " " + this.yearmade;
+                }
+                }
+                <li>DOM = Document Object Model<span id="dommodel"></span></li>
+
+            </ol>
+        </div>
+    </section>
+        <section id="otherstuff">
+            <h2>Chapter Sandbox</h2>
+            <ul>
+                <li><a href="teamwork/week1/fizzbuzz.html" target="_blank"></a>FizzBuzz</li>
+                <li><a href="../sandbox/callbacks.html" target="_blank">Callbacks</a></li>
+                <li><a href="../sandbox/listening.html" target="_blank">Listening</a></li>
+                <li><a href="../sandbox/testing.html" target="_blank">Testing</a></li>
+            </ul>
+        </section>
+        <section class="teamwork">
+            <h2>Teamwork</h2>
+            <ul>
+                <li>Week 2 <a href="../teamwork/week2/week2.html" target="_blank">Input Number</a></li>
+                <li>Week 4 <a href="../teamwork/week4/tictactoe.html" target="_blank">Tic Tac Toe</a></li>
+            </ul>
+        </section>
+        <section id="chap2">
+            <h1>Chapter 2</h1>
+            <h3>typeof</h3>
+            <p>
+                typeof 'hello'
+                ='string' <br>
+                typeof 10
+                ='number' <br>
+                typeof true
+                ='boolean' <br>
+                typeof { ninja: 'turtle' }
+                = 'object' <br>
+                typeof [ 1, 2, 3 ]
+                = 'object' (All non-primitive data types return a type of 'object' .) </p>
+            <h3>Ternary</h3>
+            <p>The conditional (ternary) operator is the only JavaScript operator that takes three
+                operands: a condition followed by a question mark ( ? ), then an expression to
+                execute if the condition is truthy followed by a colon ( : ), and finally the
+                expression to execute if the condition is falsy.</p>
+            <h3>
+                Declaring and Assigning
+            </h3>
+            <p>variables
+                <ul>
+                    <li>const--valueremains same always</li>
+                    <li>let--value can be reassigned latee</li>
+                    <li></li>
+                </ul>
+            </p>
+            <p>Scope-where the value exists</p>
+            <ul>
+                <li>block scope=value only exists inside the
+                    block they are declared in.
+                </li>
+                <li>Global scope= any variable declared outside of block, don't use this often</li>
+                <li>Local scope=applies to varibles declared inside the block</li>
+            </ul>
+            <h3>Using backslashes</h3>
+            <ul>
+                <li>Single quote marks \'</li>
+                <li>double quote marks \"</li>
+                <li>end of line \n</li>
+                <li>carriage return \r</li>
+                <li>\t for tab</li>
+                <li>"This is a backslash \\"
+                    --- "This is a backslash \" </li>
+            </ul>
+            <div>
+                <h3>Methods</h3>
+                <p>name.length</p>
+                <p>length of name "birthday" is:<span id="namespot"></span></p>
+                <p>And now we will use the uppercase method<span id="namespot2"></span>
+                    You will always have parenthesis at the end of the method</p>
+                <span id="namespot3"></span>
+            </div>
+            <div class="templateliterals"></div>
+            <h3>Template Literals</h3>
+            <h4>Template literals are special types of string that use the backtick
+                character, ` to deliminate the string.
+                <span id="hellospan"></span>
+            </h4>
+            <p>They also allow interpolation of JavaScript code. This means that a JavaScript
+                expression can be inserted inside a string and the result will be displayed, as can be seen in the
+                examples
+                below:</p>
+            <p><span id="fruit"></span> Demonstrates the use of ${} and the ``</p>
+
+
+            </div>
+        </section>
+        <section id="chap3">
+            <h1>Chapter 3 Arrays, Logic, and Loops</h1>
+            <div>
+                <h3>Sets</h3>
+                <p>Set is a date structure that represents a collection of unique values. </p>
+                <ul>
+                    <li>const list = new Set()</li>
+                    <li>list.add(1);</li>
+                    <li>list.delete()</li>
+                </ul>
+                <ul>Set Methods
+                    <li>size()</li>
+                    <li>has()</li>
+                    <li>.add()</li>
+                </ul>
+            </div>
+        </section>
+        <section id="chap4">
+            <h1>Chapter 4 Function</h1>
 
         </section>
-        <section id="listone">
-            
+        <section id="chap5">
+            <h1>Chapter 5 Objects</h1>
 
         </section>
-        <li><a href="sandbox/callbacks.html">Array Practice</a></li>
+        <section id="chap6">
+            <h1>Chapter 6 The Document Object Model</h1>
 
+        </section>
+        <section id="chap7">
+            <h1>Chapter 7 Events</h1>
 
+        </section>
+        <section id="chap8">
+            <h1>Chapter 8 Forms</h1>
+            <div>
+                <h3>Forms use &lt;form&gt;</h3>
+                <h4>They contain</h4>
+                <ul>
+                    <li>input fields</li>
+                    <li>menus</li>
+                    <li>buttons</li>
+                </ul>
+            </div>
+            <form action=""></form>
+            <input type="text" name="first" id="firstname">
+            <button type="button" id="firstbutton" onclick="sayHi()">click me</button>
+            <form action="/search" name='search'>
+                <input name="searchInput">
+                <button type="submit" onclick="searchbutton()">Search</button>
+            </form>
+            <ul>
+                <li><a href="../herochapter8/hero.html" target="_blank">myattempts at forms/notes</a></li>
+                <li><a href="../search/search.html" target="_blank">Search Form</a></li>
+            </ul>
+
+        </section>
     </main>
+    <footer>
+        <div class="bottom">
+            <h3>Kathy Clark Craig</h3>
+            <h3>WDD 330</h3>
+        </div>
+    </footer>
+
 </body>
-<script src="js/main.js"></script>
+<script src="main.js"></script>
 
 </html>
