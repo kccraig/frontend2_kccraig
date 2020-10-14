@@ -3,7 +3,7 @@ const cardList = [
         group: "florals",
         name: "pippsissewa",
         colors: "green",
-        imgSrc: "images/pipp.JPG",
+        imgSrc: "pipp.JPG",
         imgAlt: "pippsissewa flower",
         medium: "screenprinted"
     },
@@ -11,7 +11,7 @@ const cardList = [
         group: "boats",
         name: "smallboat",
         colors: "blue",
-        imgSrc: "images/boat.JPG",
+        imgSrc: "boat.JPG",
         imgAlt: "image of boat",
         medium: "linoprinted"
     },
@@ -19,7 +19,7 @@ const cardList = [
         group: "florals",
         name: "magnolia",
         colors: "creme",
-        imgSrc: "images/magnolia.JPG",
+        imgSrc: "magnolia.JPG",
         imgAlt: "magnolia flower",
         medium: "screenprinted"
     },
@@ -27,7 +27,7 @@ const cardList = [
         group: "florals",
         name: "rose",
         colors: "red",
-        imgSrc: "images/rose.JPG",
+        imgSrc: "rose.JPG",
         imgAlt: "rose flower",
         medium: "linoprinted"
     },
@@ -35,7 +35,7 @@ const cardList = [
         group: "birds",
         name: "egret",
         colors: "blue",
-        imgSrc: "images/egret.JPG",
+        imgSrc: "egret.JPG",
         imgAlt: "egret",
         medium: "watercolor"
     },
@@ -43,14 +43,14 @@ const cardList = [
         group: "bugs",
         name: "butterfly",
         colors: "orange",
-        imgSrc: "images/butterfly.JPG",
+        imgSrc: "butterfly.JPG",
         imgAlt: "butterfly",
         medium: "screenprinted"
     }
 
 ];
 
-const imageFolder = "images";
+const imageFolder = "messing/images";
 window.addEventListener("load", () => {
     showcardList();
 });
@@ -62,7 +62,7 @@ function showcardList() {
 }
 function rendercardList(cards, parent) {
     cards.forEach(card => {
-        parent.appentChild(renderOneCard(card));
+        parent.appendChild(renderOneCard(card));
     });
 }
 function renderOneCard(card) {
