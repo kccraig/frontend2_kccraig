@@ -53,7 +53,9 @@ const cardList = [
 const imageFolder = "messing/images";
 window.addEventListener("load", () => {
     showcardList();
-});
+}
+);
+console.log(cardList.length);
 
 function showcardList() {
     const cardListElement = document.getElementById('here');
