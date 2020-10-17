@@ -35,31 +35,45 @@ const hikeList = [
     }
   ];
 
-let aHike = document.createElement('section');
+hikeList.forEach(element => console.log(element));
 
-const eachHike = document.createElement('h2');
-const imgSorc  = hikeList.imgSrc;
-const altSorc = hikeList.imgSrc;
-const distanceHeader = document.createElement('h3');
-const distance = document.createElement('p');
-const difficultyHeader = document.createElement('h3');
-const difficulty = document.createElement('p');
-
-eachHike = hikeList.name;
-
-distanceHeader.textContent = "Distance";
-distance.textContent = hikeList.distance;
-difficultyHeader.textContent = "Difficulty";
-difficultyHeader.textContent = hikeList.difficulty;
-
-aHike.appendChild(eachHike);
-aHike.appendChild(imgSorc);
-aHike.appendChild(altSorc);
-aHike.appendChild(distanceHeader);
-aHike.appendChild(distance);
+const imgBasePath = "//byui-cit.github.io/cit261/examples/";
+//on load grab the array and insert it into the page
+window.addEventListener("load", () => {
+  showHikeList();
+});
 
 
 
 
+// let aHike = document.createElement('section');
 
-document.querySelector('div.hikeshere').appendChild(aHike);
+// const eachHike = document.createElement('h2');
+// const imgSorc  = hikeList.imgSrc;
+// const altSorc = hikeList.imgSrc;
+// const distanceHeader = document.createElement('h3');
+// const distance = document.createElement('p');
+// const difficultyHeader = document.createElement('h3');
+// const difficulty = document.createElement('p');
+
+// eachHike = hikeList.name;
+
+// distanceHeader.textContent = "Distance";
+// distance.textContent = hikeList.distance;
+// difficultyHeader.textContent = "Difficulty";
+// difficultyHeader.textContent = hikeList.difficulty;
+
+// aHike.appendChild(eachHike);
+// aHike.appendChild(imgSorc);
+// aHike.appendChild(altSorc);
+// aHike.appendChild(distanceHeader);
+// aHike.appendChild(distance);
+
+// document.querySelector('div.hikeshere').appendChild(aHike);
+
+// class Hike {
+//   constructor(name, imgSrc, imgAlt, distance, difficulty, description, directions)
+
+// }
+
+hikeList
