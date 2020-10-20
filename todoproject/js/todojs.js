@@ -1,7 +1,7 @@
 // alert('hi sofar');
-updateForm = () => {
-    let doItems = [];
-doItems.push(document.getElementsByClassName('listItemBox').innerHTML);
+// input each task
 
-    console.log(doItems.length)
-}
+var task = document.getElementById('listInputBox').innerHTML;
+alert(task);
+
+
