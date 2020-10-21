@@ -1,7 +1,10 @@
 // alert('hi sofar');
 // input each task
 
-var task = document.getElementById('listInputBox').innerHTML;
-alert(task);
+addToList = () => {
+    const item = document.getElementById('inputBox').innerHTML;
+    console.log(item);
+}
+
 
 
