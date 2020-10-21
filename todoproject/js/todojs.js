@@ -1,19 +1,16 @@
 // alert('hi sofar');
 // input each task
 
-// addToList = () => {
+addToList = () => {
 
-// const taskList = []; 
+    const taskList = [];
 
-//     const item = document.getElementById('inputBox');
-//     console.log(item);
-//     taskList.push(item);
-
-// }
-addItem = () => {
-
-    console.log('first');
+    const item = document.getElementById('inputBox').value;
+    console.log(item);
+    taskList.push(item);
+    console.log(taskList);
 }
+// addItem = () => {
 
-
-
+//     console.log('first');
+// }
