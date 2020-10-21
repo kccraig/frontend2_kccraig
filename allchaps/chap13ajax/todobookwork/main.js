@@ -1,5 +1,5 @@
-const form = document.forms['todo'];
-form.addEventListener('submit', addTask, false);
+// const form = document.forms['todo'];
+// form.addEventListener('submit', addTask, false);
 
 // function addTask(event) {
 //     event.preventDefault();
@@ -59,5 +59,5 @@ fetch(request)
 .then( response => response.json() )
 .then(data => console.log(`$data.title} saved with an id of ${data.id}`) )
 .catch( error => console.log('There was an error:', error))
-           
+           alert(form);
     }
