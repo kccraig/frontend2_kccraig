@@ -10,7 +10,7 @@
 
 <body>
     <main>
-        <div id='wholeList'>
+        <!-- <div id='wholeList'>
             <h1>Todos</h1>
             <div id='listInputBoxdiv'>
                 <input type="text" id="InputBox"></div>
@@ -20,7 +20,11 @@
                 <div class='tasksDone'><span id='numActive'>Active</span></div>
                 <div class='tasksDone'><span id='numDone'>Completed</span></div>
                 </div>
-        </div>
+        </div> -->
+        <form action="moveItems()" id='formStart'>
+            Add item to your todo list: <input type="text" name="listIteem">
+            <button type="submit" onclick="addItem()">Add it</button>
+        </form>
 
     </main>
 
