@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+ul {
+    background-color: lightseagreen;
+}
+li {
+    background-color: lightsteelblue;
+   list-style-type: none;
+}
