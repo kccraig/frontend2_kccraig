@@ -16,7 +16,7 @@ function showList(taskList) {
     // create and append list items using taskList.forEach
     taskList.array.forEach(element => {
         const listItem = document.createElement(li);
-        const eachItem = document.textContent()
+        const eachItem = document.textContent();
 
 
         
