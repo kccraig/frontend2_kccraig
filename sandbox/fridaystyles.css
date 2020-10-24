@@ -1,0 +1,10 @@
+
+body {
+    background-color: beige;
+} 
+#toDoList {
+    background-color: lightblue;
+}
+li {
+    list-style-type: none ;
+}
